@@ -1,0 +1,26 @@
+DOCUMENTACIÓN DE SOLUCIÓN — RAMA BUGFIX
+
+Repositorio: hrojasa1-art/Programacion2
+Rama de creación: bugfix/documentacion
+Archivo: DocumentacionSolucion.txt
+
+Objetivo de la práctica
+Registrar una modificación documental en una rama bugfix y posteriormente integrarla en main. La consigna solicita crear este archivo; no especifica un error del programa y no se atribuye a esta práctica una reparación de código.
+
+Proceso
+1. Crear bugfix/documentacion desde la versión inicial de main.
+2. Crear este archivo en la raíz de esa rama.
+3. Guardar el cambio mediante un commit descriptivo y publicarlo.
+4. Integrar la rama en main conservando el historial.
+5. Actualizar la rama con el estado final de main.
+
+Comandos equivalentes en Git Bash (guía, no transcripción de ejecución):
+git checkout main
+git checkout -b bugfix/documentacion
+git push -u origin bugfix/documentacion
+# Crear y guardar DocumentacionSolucion.txt con un editor.
+git add DocumentacionSolucion.txt
+git commit -m "docs: agregar DocumentacionSolucion.txt en bugfix/documentacion"
+git push origin bugfix/documentacion
+
+La operación real de esta entrega utiliza la integración de GitHub. El registro general, los enlaces de evidencia y las instrucciones de integración están en DocumentacionRamas.md una vez incorporado a main.
