@@ -1,0 +1,26 @@
+DOCUMENTACIÓN DE SOLUCIÓN — RAMA HOTFIX
+
+Repositorio: hrojasa1-art/Programacion2
+Rama de creación: hotfix/documentacion
+Archivo: DocumentacionSolucionhotfix.txt
+
+Objetivo de la práctica
+Demostrar el uso de una rama hotfix mediante la creación del archivo solicitado. En un proyecto real, hotfix suele reservarse para correcciones urgentes; esta actividad es documental y no simula una reparación de código que no se haya realizado.
+
+Proceso
+1. Crear hotfix/documentacion desde la versión inicial de main.
+2. Crear este archivo en la raíz de esa rama.
+3. Guardar el cambio mediante un commit descriptivo y publicarlo.
+4. Integrar los cambios en main conservando el historial.
+5. Sincronizar esta rama con la versión final de main.
+
+Comandos equivalentes en Git Bash (guía, no transcripción de ejecución):
+git checkout main
+git checkout -b hotfix/documentacion
+git push -u origin hotfix/documentacion
+# Crear y guardar DocumentacionSolucionhotfix.txt con un editor.
+git add DocumentacionSolucionhotfix.txt
+git commit -m "docs: agregar DocumentacionSolucionhotfix.txt en hotfix/documentacion"
+git push origin hotfix/documentacion
+
+La operación real de esta entrega utiliza la integración de GitHub. Consultar DocumentacionRamas.md para la integración, sincronización y evidencia remota.
